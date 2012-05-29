@@ -1,0 +1,72 @@
+body {
+  background-image: url(../images/paper.png);
+  margin: 50px;
+  font-family: "Gill Sans";
+  color: #2f2e2b;
+}
+
+p {
+  margin: 0 0 30px 0;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 140px;
+  font-weight: normal;
+  margin: 0;
+  padding-left: 180px;
+  background-image: url(../images/zooatrope-logo.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  color: #dc4600;
+  text-shadow: 0 2px 0 #FCF9EE, 0 4px 0 rgba(0, 0, 0, .15);
+}
+
+h1:first-letter {
+  text-transform: lowercase;
+}
+
+.brent {
+  text-shadow: 0 0 0 #FCF9EE, 0 4px 0 rgba(0, 0, 0, .15);
+  color: #508084;
+  margin: 0;
+  font-size: 60px;
+  line-height: 90px;
+  padding-right: 80px;
+  background-image: url(../images/brent-small.png);
+  background-position: right center;
+  text-align: right;
+  background-repeat: no-repeat;
+}
+
+.likes {
+  font-size: 25px;
+}
+
+.likes p {
+  line-height: 40px;
+  margin: 0;
+}
+
+.likes ol {
+  margin: 0 0 0 30px;
+  list-style-type: lower-alpha;
+}
+
+.likes li, .likes .like_reference {
+  color: #dc4600;
+}
+
+.likes .like {
+  color: #2f2e2b;
+}
+
+.call_to_action {
+  font-size: 40px;
+  margin-top: 20px;	
+}
+
+.call_to_action a {
+  color: #508084;
+  text-decoration: none;
+}
